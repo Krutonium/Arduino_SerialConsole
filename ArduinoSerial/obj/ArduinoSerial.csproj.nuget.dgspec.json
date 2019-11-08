@@ -1,0 +1,59 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/krutonium/RiderProjects/ArduinoSerial/ArduinoSerial/ArduinoSerial.csproj": {}
+  },
+  "projects": {
+    "/home/krutonium/RiderProjects/ArduinoSerial/ArduinoSerial/ArduinoSerial.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/krutonium/RiderProjects/ArduinoSerial/ArduinoSerial/ArduinoSerial.csproj",
+        "projectName": "ArduinoSerial",
+        "projectPath": "/home/krutonium/RiderProjects/ArduinoSerial/ArduinoSerial/ArduinoSerial.csproj",
+        "packagesPath": "/home/krutonium/.nuget/packages/",
+        "outputPath": "/home/krutonium/RiderProjects/ArduinoSerial/ArduinoSerial/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/krutonium/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.1": {
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.1.0, )",
+              "autoReferenced": true
+            },
+            "System.IO.Ports": {
+              "target": "Package",
+              "version": "[4.7.0-preview2.19523.17, )"
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}
